@@ -1,0 +1,48 @@
+数据预处理技术
+# mean removal
+# 特征值减去均值，除以标准差；会导致特征均值为0，标准差为1
+
+
+# min max scaling
+# 范围缩放：最小-最大规范化对原始数据进行线性变换，变换到[0,1]区间（也可以是其他固定最小最大值的区间）
+
+# 规范化（Normalization）
+# 规范化是将不同变化范围的值映射到相同的固定范围，常见的是[0,1]，此时也称为归一化。《机器学习》周志华
+
+
+# 特征二值化（Binarization）
+# 给定阈值，将特征转换为0/1
+
+################################
+标记编码的方法
+标记编码是把单词标记转换成数值形式，让算法懂得如何操作标记
+利用这个函数自动标记
+label_encoder = preprocessing.LabelEncoder()
+
+以下是编译和反编译的演示
+
+
+#标记编码方法演示
+label_encoder = preprocessing.LabelEncoder()
+input_classes = ['audi', 'ford', 'audi', 'toyota', 'ford', 'bmw']  #创建标记
+label_encoder.fit(input_classes)
+
+# print classes
+# 编码标记
+print("\nClass mapping:")
+for i, item in enumerate(label_encoder.classes_):
+    print(item, '-->', i)
+
+
+
+# transform a set of classes
+labels = ['toyota', 'ford', 'audi']
+encoded_labels = label_encoder.transform(labels)
+print("\nLabels =", labels)
+print("Encoded labels =", list(encoded_labels))
+
+# inverse transform
+encoded_labels = [2, 1, 0, 3, 1]
+decoded_labels = label_encoder.inverse_transform(encoded_labels)
+print("\nEncoded labels =", encoded_labels)
+print("Decoded labels =", list(decoded_labels))

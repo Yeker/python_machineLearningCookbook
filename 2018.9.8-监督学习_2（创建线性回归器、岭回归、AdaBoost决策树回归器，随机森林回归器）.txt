@@ -1,0 +1,48 @@
+# 数据读取操作
+filename = 'data_singlevar.txt'
+X = []
+y = []
+with open(filename, 'r') as f:
+    for line in f.readlines():
+        xt, yt = [float(i) for i in line.split(',')]
+        X.append(xt)
+        y.append(yt)
+
+
+中位数绝对误差，能够消除异常值带来的干扰
+
+尽量保持均方误差最低，解释方差分最高
+
+
+
+#保存模型操作
+利用pickle函数
+import  pickle
+
+output_model_file = '3_model_linear_regr.pkl'
+
+with open(output_model_file, 'w') as f:
+    pickle.dump(linear_regressor, f)
+#使用模型操作
+with open(output_model_file, 'r') as f:
+    model_linregr = pickle.load(f)
+
+y_test_pred_new = model_linregr.predict(X_test)
+print("\nNew mean absolute error =", round(sm.mean_absolute_error(y_test, y_test_pred_new), 2))
+
+
+
+
+#######创建岭回归
+
+为了解决欠拟合的情 经常要提高线性的次数建立模型拟合曲线， 次数过高会导致过拟合，次数不够会欠拟合。
+再建立高次函数时候，要利用多项式特征生成器 生成训练数据。
+
+
+
+#########实例
+带AdaBoost算法的决策树回归器
+
+shuffle函数能够把数据的顺序打乱，这样可以直接拆分训练集和测试集了
+划分数据集后可以拟合一个决策树回归模型；
+这里选择一个最大深度为4的决策树，这样可以限制决策树不变成任意深度；

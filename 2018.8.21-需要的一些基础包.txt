@@ -1,0 +1,9 @@
+Numpy
+SciPy
+scikit-learn
+matplotlib
+
+
+
+
+pip3 install -i https://pypi.doubanio.com/simple Numpy

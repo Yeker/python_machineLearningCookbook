@@ -1,0 +1,5 @@
+直接用逻辑回归的函数的就行了……
+linear_model.LogisticRegression
+    classifier = linear_model.LogisticRegression(solver='liblinear', C=10000)
+solver:表示用的算法模型
+C：表示正则惩罚度，越大分类效果越好，但是可能会产生过拟合的情况

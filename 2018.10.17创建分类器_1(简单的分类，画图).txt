@@ -1,0 +1,22 @@
+#plt.scatter()能够画散点图
+# plot input data
+plt.figure()
+plt.scatter(class_0[:,0], class_0[:,1], color='black', marker='s')
+plt.scatter(class_1[:,0], class_1[:,1], color='black', marker='x')
+
+# draw the separator line
+line_x = range(10)
+line_y = line_x
+
+# plot labeled data and separator line 
+plt.figure()
+plt.scatter(class_0[:,0], class_0[:,1], color='black', marker='s')
+plt.scatter(class_1[:,0], class_1[:,1], color='black', marker='x')
+plt.plot(line_x, line_y, color='black', linewidth=3)
+
+plt.show()
+
+
+
+
+#plt.plot()可以直接画直线
