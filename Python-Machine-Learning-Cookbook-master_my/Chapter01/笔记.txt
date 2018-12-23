@@ -1,0 +1,3 @@
+https://archive.ics.uci.edu/ml/datasets/Housing
+这是一个数据集，里面的13个参数对应一个房屋价格
+回归的目标最好是一个连续的数值型结果
