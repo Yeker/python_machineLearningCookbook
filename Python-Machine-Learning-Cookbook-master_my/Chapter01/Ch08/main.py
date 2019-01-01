@@ -78,8 +78,8 @@ def ridgeTest(xArr,yArr):
 
 
 if __name__=='__main__':
-    xArr,yArr = loadDataSet('ex0.txt')
-    ws = standRegres(xArr,yArr)
+    # xArr,yArr = loadDataSet('ex0.txt')
+    # ws = standRegres(xArr,yArr)
     # print(xArr[0:2])
     # print(yArr[0])
     # xMat = mat(xArr)
@@ -107,7 +107,7 @@ if __name__=='__main__':
     # temp2 = mat(yArr).T.flatten().A[0]
     # ax.scatter(temp1,temp2,s = 2,c = 'red')
     # plt.show()
-    # ###########预测鲍鱼的年龄##########
+    # # ###########预测鲍鱼的年龄##########
     # abX,abY = loadDataSet('abalone.txt')
     # yHat01 = lwlrTest(abX[0:99],abX[0:99],abY[0:99],0.1)
     # yHat1 = lwlrTest(abX[0:99],abX[0:99],abY[0:99],1)
@@ -127,3 +127,9 @@ if __name__=='__main__':
     # yHat = mat(abX[100:199])*ws
     # print(rssError(abY[100:199],yHat.T.A))
     ##########岭回归#################
+    abX,abY = loadDataSet('abalone.txt')
+    ridgeWeights = ridgeRegres(abX,abY)
+    fig = plt.figure()
+    ax = fig.add_subplot(111)
+    ax.plot(ridgeWeights)
+    plt.show()
