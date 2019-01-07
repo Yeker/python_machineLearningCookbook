@@ -186,7 +186,7 @@ def scrapePage(retX, retY, inFile, yr, numPce, origPrc):
 
     # 打开并读取HTML文件
     fr = open(inFile);
-    soup = BeautifulSoup(fr.read())
+    soup = BeautifulSoup(fr.read(),features="html5lib")
     i=1
 
     # 根据HTML页面结构进行解析
@@ -228,7 +228,7 @@ def scrapePage(retX, retY, inFile, yr, numPce, origPrc):
 def setDataCollect(retX, retY):
     scrapePage(retX, retY, 'setHtml/lego8288.html', 2006, 800, 49.99)
     scrapePage(retX, retY, 'setHtml/lego10030.html', 2002, 3096, 269.99)
-    scrapePage(retX, retY, 'setHtml/lego10179.html', 2007, 5195, 499.99)
+    # scrapePage(retX, retY, 'setHtml/lego10179.html', 2007, 5195, 499.99)
     scrapePage(retX, retY, 'setHtml/lego10181.html', 2007, 3428, 199.99)
     scrapePage(retX, retY, 'setHtml/lego10189.html', 2008, 5922, 299.99)
     scrapePage(retX, retY, 'setHtml/lego10196.html', 2009, 3263, 249.99)
@@ -288,7 +288,7 @@ def crossValidation(xArr,yArr,numVal=10):
         testX = []; testY = []
 
         # 对数据进行混洗操作
-        random.shuffle(indexList)
+        random.shuffle(list(indexList))
 
         # 切分训练集和测试集
         for j in range(m):
@@ -405,4 +405,5 @@ if __name__=='__main__':
     lgY = []
 
     setDataCollect(lgX, lgY)
+
     crossValidation(lgX, lgY, 10)
