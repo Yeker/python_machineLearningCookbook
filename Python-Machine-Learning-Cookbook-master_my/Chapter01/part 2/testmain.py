@@ -43,3 +43,4 @@ penn.iloc[:,-6:].corr()
 model=sm.OLS(np.log(penn.rgdpe),\
              sm.add_constant(penn.iloc[:,-5:-1])).fit()
 print(model.summary())
+plt.show()
