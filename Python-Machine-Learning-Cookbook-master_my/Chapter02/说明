@@ -1,0 +1,9 @@
+simple_classifier.py  简单的分类说明
+logistic_regressiong.py 逻辑回归分类器
+naive_bayes.py 朴素贝叶斯分类器
+confusion_matrix.py 混淆矩阵
+car.py 根据汽车特征评估特征   采用的是随机森林分类器
+income.py 评估收入阶层
+
+
+

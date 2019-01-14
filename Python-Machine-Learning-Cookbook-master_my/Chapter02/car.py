@@ -32,11 +32,11 @@ classifier = RandomForestClassifier(**params)
 classifier.fit(X, y)
 
 # Cross validation
-from sklearn import cross_validation
+from sklearn import model_selection
 
-accuracy = cross_validation.cross_val_score(classifier, 
+accuracy = model_selection.cross_val_score(classifier,
         X, y, scoring='accuracy', cv=3)
-print "Accuracy of the classifier: " + str(round(100*accuracy.mean(), 2)) + "%"
+print("Accuracy of the classifier: " + str(round(100*accuracy.mean(), 2)) + "%")
 
 # Testing encoding on single data instance
 input_data = ['vhigh', 'vhigh', '2', '2', 'small', 'low'] 
@@ -48,21 +48,21 @@ input_data_encoded = np.array(input_data_encoded)
 
 # Predict and print output for a particular datapoint
 output_class = classifier.predict(input_data_encoded)
-print "Output class:", label_encoder[-1].inverse_transform(output_class)[0]
+print("Output class:", label_encoder[-1].inverse_transform(output_class)[0])
 
 ########################
 # Validation curves
 
-from sklearn.learning_curve import validation_curve
+# from sklearn.learning_curve import validation_curve
 
 classifier = RandomForestClassifier(max_depth=4, random_state=7)
 
 parameter_grid = np.linspace(25, 200, 8).astype(int)
-train_scores, validation_scores = validation_curve(classifier, X, y, 
+train_scores, validation_scores = model_selection.validation_curve(classifier, X, y,
         "n_estimators", parameter_grid, cv=5)
-print "\n##### VALIDATION CURVES #####"
-print "\nParam: n_estimators\nTraining scores:\n", train_scores
-print "\nParam: n_estimators\nValidation scores:\n", validation_scores
+print("\n##### VALIDATION CURVES #####")
+print("\nParam: n_estimators\nTraining scores:\n", train_scores)
+print("\nParam: n_estimators\nValidation scores:\n", validation_scores)
 
 # Plot the curve
 plt.figure()
@@ -74,10 +74,10 @@ plt.show()
 
 classifier = RandomForestClassifier(n_estimators=20, random_state=7)
 parameter_grid = np.linspace(2, 10, 5).astype(int)
-train_scores, valid_scores = validation_curve(classifier, X, y, 
+train_scores, valid_scores = model_selection.validation_curve(classifier, X, y,
         "max_depth", parameter_grid, cv=5)
-print "\nParam: max_depth\nTraining scores:\n", train_scores
-print "\nParam: max_depth\nValidation scores:\n", validation_scores
+print("\nParam: max_depth\nTraining scores:\n", train_scores)
+print("\nParam: max_depth\nValidation scores:\n", validation_scores)
 
 # Plot the curve
 plt.figure()
@@ -90,16 +90,16 @@ plt.show()
 ########################
 # Learning curves
 
-from sklearn.learning_curve import learning_curve
+# from sklearn.learning_curve import learning_curve
 
 classifier = RandomForestClassifier(random_state=7)
 
 parameter_grid = np.array([200, 500, 800, 1100])
-train_sizes, train_scores, validation_scores = learning_curve(classifier, 
+train_sizes, train_scores, validation_scores = model_selection.learning_curve(classifier,
         X, y, train_sizes=parameter_grid, cv=5)
-print "\n##### LEARNING CURVES #####"
-print "\nTraining scores:\n", train_scores
-print "\nValidation scores:\n", validation_scores
+print("\n##### LEARNING CURVES #####")
+print("\nTraining scores:\n", train_scores)
+print("\nValidation scores:\n", validation_scores)
 
 # Plot the curve
 plt.figure()

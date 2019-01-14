@@ -52,17 +52,17 @@ classifier_gaussiannb = GaussianNB()
 classifier_gaussiannb.fit(X, y)
 
 # Cross validation
-from sklearn import cross_validation
+from sklearn import model_selection
 
-X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size=0.25, random_state=5)
+X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_size=0.25, random_state=5)
 classifier_gaussiannb = GaussianNB()
 classifier_gaussiannb.fit(X_train, y_train)
 y_test_pred = classifier_gaussiannb.predict(X_test)
 
 # compute F1 score of the classifier
-f1 = cross_validation.cross_val_score(classifier_gaussiannb, 
+f1 = model_selection.cross_val_score(classifier_gaussiannb,
         X, y, scoring='f1_weighted', cv=5)
-print "F1 score: " + str(round(100*f1.mean(), 2)) + "%"
+print("F1 score: " + str(round(100*f1.mean(), 2)) + "%")
 
 # Testing encoding on single data instance
 input_data = ['39', 'State-gov', '77516', 'Bachelors', '13', 'Never-married', 'Adm-clerical', 'Not-in-family', 'White', 'Male', '2174', '0', '40', 'United-States'] 
@@ -79,5 +79,5 @@ input_data_encoded = np.array(input_data_encoded)
 
 # Predict and print output for a particular datapoint
 output_class = classifier_gaussiannb.predict(input_data_encoded)
-print label_encoder[-1].inverse_transform(output_class)[0]
+print(label_encoder[-1].inverse_transform(output_class)[0])
 
