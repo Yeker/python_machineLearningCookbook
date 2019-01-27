@@ -42,11 +42,12 @@ print("Accuracy of the classifier: " + str(round(100*accuracy.mean(), 2)) + "%")
 input_data = ['vhigh', 'vhigh', '2', '2', 'small', 'low'] 
 input_data_encoded = [-1] * len(input_data)
 for i,item in enumerate(input_data):
-    input_data_encoded[i] = int(label_encoder[i].transform(input_data[i]))
+    input_data_encoded[i] = int(label_encoder[i].transform([input_data[i]]))
 
 input_data_encoded = np.array(input_data_encoded)
 
 # Predict and print output for a particular datapoint
+input_data_encoded=input_data_encoded.reshape(1,6)
 output_class = classifier.predict(input_data_encoded)
 print("Output class:", label_encoder[-1].inverse_transform(output_class)[0])
 

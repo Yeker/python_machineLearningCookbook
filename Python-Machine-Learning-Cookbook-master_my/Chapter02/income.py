@@ -72,12 +72,13 @@ for i,item in enumerate(input_data):
     if item.isdigit():
         input_data_encoded[i] = int(input_data[i])
     else:
-        input_data_encoded[i] = int(label_encoder[count].transform(input_data[i]))
+        input_data_encoded[i] = int(label_encoder[count].transform([input_data[i]]))
         count = count + 1 
 
 input_data_encoded = np.array(input_data_encoded)
 
 # Predict and print output for a particular datapoint
+input_data_encoded=input_data_encoded.reshape(1,14)
 output_class = classifier_gaussiannb.predict(input_data_encoded)
 print(label_encoder[-1].inverse_transform(output_class)[0])
 

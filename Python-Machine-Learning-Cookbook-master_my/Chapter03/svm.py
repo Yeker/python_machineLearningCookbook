@@ -20,10 +20,10 @@ plt.title('Input data')
 
 ###############################################
 # Train test split and SVM training
-from sklearn import cross_validation
+from sklearn import model_selection
 from sklearn.svm import SVC
 
-X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size=0.25, random_state=5)
+X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_size=0.25, random_state=5)
 
 params = {'kernel': 'linear'}
 #params = {'kernel': 'poly', 'degree': 3}
@@ -41,14 +41,14 @@ utilities.plot_classifier(classifier, X_test, y_test, 'Test dataset')
 from sklearn.metrics import classification_report
 
 target_names = ['Class-' + str(int(i)) for i in set(y)]
-print "\n" + "#"*30
-print "\nClassifier performance on training dataset\n"
-print classification_report(y_train, classifier.predict(X_train), target_names=target_names)
-print "#"*30 + "\n"
+print("\n" + "#"*30)
+print("\nClassifier performance on training dataset\n")
+print(classification_report(y_train, classifier.predict(X_train), target_names=target_names))
+print("#"*30 + "\n")
 
-print "#"*30
-print "\nClassification report on test dataset\n"
-print classification_report(y_test, y_test_pred, target_names=target_names)
-print "#"*30 + "\n"
+print("#"*30)
+print("\nClassification report on test dataset\n")
+print(classification_report(y_test, y_test_pred, target_names=target_names))
+print("#"*30 + "\n")
 
 plt.show()
