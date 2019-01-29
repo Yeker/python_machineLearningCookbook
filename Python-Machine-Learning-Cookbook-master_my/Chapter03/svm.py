@@ -25,9 +25,9 @@ from sklearn.svm import SVC
 
 X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_size=0.25, random_state=5)
 
-params = {'kernel': 'linear'}
-#params = {'kernel': 'poly', 'degree': 3}
-#params = {'kernel': 'rbf'}
+# params = {'kernel': 'linear'}
+# params = {'kernel': 'poly', 'degree': 3}
+params = {'kernel': 'rbf'}
 classifier = SVC(**params)
 classifier.fit(X_train, y_train)
 utilities.plot_classifier(classifier, X_train, y_train, 'Training dataset')
