@@ -4,8 +4,8 @@ import numpy as np
 from sklearn import preprocessing
 from sklearn.svm import SVC
 
-input_file = 'building_event_binary.txt'
-#input_file = 'building_event_multiclass.txt'
+# input_file = 'building_event_binary.txt'
+input_file = 'building_event_multiclass.txt'
 
 # Reading the data
 X = []
@@ -31,16 +31,16 @@ X = X_encoded[:, :-1].astype(int)
 y = X_encoded[:, -1].astype(int)
 
 # Build SVM
-params = {'kernel': 'rbf', 'probability': True, 'class_weight': 'auto'} 
+params = {'kernel': 'rbf', 'probability': True, 'class_weight': 'balanced'}
 classifier = SVC(**params)
 classifier.fit(X, y)
 
 # Cross validation
-from sklearn import cross_validation
+from sklearn import model_selection
 
-accuracy = cross_validation.cross_val_score(classifier, 
+accuracy = model_selection.cross_val_score(classifier,
         X, y, scoring='accuracy', cv=3)
-print "Accuracy of the classifier: " + str(round(100*accuracy.mean(), 2)) + "%"
+print("Accuracy of the classifier: " + str(round(100*accuracy.mean(), 2)) + "%")
 
 # Testing encoding on single data instance
 input_data = ['Tuesday', '12:30:00','21','23']
@@ -50,12 +50,12 @@ for i,item in enumerate(input_data):
     if item.isdigit():
         input_data_encoded[i] = int(input_data[i])
     else:
-        input_data_encoded[i] = int(label_encoder[count].transform(input_data[i]))
+        input_data_encoded[i] = int(label_encoder[count].transform([input_data[i]]))
         count = count + 1 
 
 input_data_encoded = np.array(input_data_encoded)
 
 # Predict and print output for a particular datapoint
-output_class = classifier.predict(input_data_encoded)
-print "Output class:", label_encoder[-1].inverse_transform(output_class)[0]
+output_class = classifier.predict(input_data_encoded.reshape(1, -1))
+print("Output class:", label_encoder[-1].inverse_transform(output_class)[0])
 

@@ -31,8 +31,10 @@ for metric in metrics:
 
     print("\nScores across the parameter grid:")
     # print(classifier.cv_results_)
-    for params, mean_test_score, _ in classifier.cv_results:
-        print(params, '-->', round(mean_test_score, 3))
+    means = classifier.cv_results_['mean_test_score']
+    params = classifier.cv_results_['params']
+    for index in range(len(params)):
+        print(params[index], '-->', round(means[index], 3))
 
     print("\nHighest scoring parameter set:", classifier.best_params_)
 

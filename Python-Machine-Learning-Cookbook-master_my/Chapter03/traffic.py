@@ -38,7 +38,7 @@ regressor.fit(X, y)
 import sklearn.metrics as sm
 
 y_pred = regressor.predict(X)
-print "Mean absolute error =", round(sm.mean_absolute_error(y, y_pred), 2)
+print("Mean absolute error =", round(sm.mean_absolute_error(y, y_pred), 2))
 
 # Testing encoding on single data instance
 input_data = ['Tuesday', '13:35', 'San Francisco', 'yes']
@@ -48,11 +48,11 @@ for i,item in enumerate(input_data):
     if item.isdigit():
         input_data_encoded[i] = int(input_data[i])
     else:
-        input_data_encoded[i] = int(label_encoder[count].transform(input_data[i]))
+        input_data_encoded[i] = int(label_encoder[count].transform([input_data[i]]))
         count = count + 1 
 
 input_data_encoded = np.array(input_data_encoded)
 
 # Predict and print output for a particular datapoint
-print "Predicted traffic:", int(regressor.predict(input_data_encoded)[0])
+print("Predicted traffic:", int(regressor.predict(input_data_encoded.reshape(1, -1))[0]))
 
