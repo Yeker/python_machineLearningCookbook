@@ -86,7 +86,7 @@ def img2vector(filename):
 
 def handwritingClassTest():
     hwLabels = []
-    trainingFileList = listdir('trainingDigits')           #load the training set
+    trainingFileList = listdir('digits/trainingDigits')           #load the training set
     m = len(trainingFileList)
     trainingMat = zeros((m,1024))
     for i in range(m):
@@ -94,15 +94,15 @@ def handwritingClassTest():
         fileStr = fileNameStr.split('.')[0]     #take off .txt
         classNumStr = int(fileStr.split('_')[0])
         hwLabels.append(classNumStr)
-        trainingMat[i,:] = img2vector('trainingDigits/%s' % fileNameStr)
-    testFileList = listdir('testDigits')        #iterate through the test set
+        trainingMat[i,:] = img2vector('/Users/bobo/Desktop/github/python_machineLearningCookbook/Python-Machine-Learning-Cookbook-master_my/Chapter03/Ch02/digits/trainingDigits/%s' % fileNameStr)
+    testFileList = listdir('/Users/bobo/Desktop/github/python_machineLearningCookbook/Python-Machine-Learning-Cookbook-master_my/Chapter03/Ch02/digits/testDigits')        #iterate through the test set
     errorCount = 0.0
     mTest = len(testFileList)
     for i in range(mTest):
         fileNameStr = testFileList[i]
         fileStr = fileNameStr.split('.')[0]     #take off .txt
         classNumStr = int(fileStr.split('_')[0])
-        vectorUnderTest = img2vector('testDigits/%s' % fileNameStr)
+        vectorUnderTest = img2vector('/Users/bobo/Desktop/github/python_machineLearningCookbook/Python-Machine-Learning-Cookbook-master_my/Chapter03/Ch02/digits/testDigits/%s' % fileNameStr)
         classifierResult = classify0(vectorUnderTest, trainingMat, hwLabels, 3)
         print("the classifier came back with: %d, the real answer is: %d" % (classifierResult, classNumStr))
         if (classifierResult != classNumStr): errorCount += 1.0
@@ -115,8 +115,11 @@ if __name__=='__main__':
     # print(group,labels)
     # print(classify0([0,0],group,labels,3))
     # datingTestSet数据测试
-    datingDataMat,datingLabels = file2matrix('datingTestSet2.txt')
-    fig = plt.figure()
-    ax = fig.add_subplot(111)
-    ax.scatter(datingDataMat[:,0],datingDataMat[:,1],15.0*array(datingLabels),15.0*array(datingLabels))
-    plt.show()
+    # datingDataMat,datingLabels = file2matrix('datingTestSet2.txt')
+    # fig = plt.figure()
+    # ax = fig.add_subplot(111)
+    # ax.scatter(datingDataMat[:,0],datingDataMat[:,1],15.0*array(datingLabels),15.0*array(datingLabels))
+    # plt.show()
+    # datingClassTest()
+    # 识别手写图片
+    handwritingClassTest()
