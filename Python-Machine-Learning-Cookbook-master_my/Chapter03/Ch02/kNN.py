@@ -14,6 +14,8 @@ Output:     the most popular class label
 from numpy import *
 import operator
 from os import listdir
+import matplotlib
+import matplotlib.pyplot as plt
 
 def classify0(inX, dataSet, labels, k):
     dataSetSize = dataSet.shape[0]
@@ -26,7 +28,7 @@ def classify0(inX, dataSet, labels, k):
     for i in range(k):
         voteIlabel = labels[sortedDistIndicies[i]]
         classCount[voteIlabel] = classCount.get(voteIlabel,0) + 1
-    sortedClassCount = sorted(classCount.iteritems(), key=operator.itemgetter(1), reverse=True)
+    sortedClassCount = sorted(classCount.items(), key=operator.itemgetter(1), reverse=True)
     return sortedClassCount[0][0]
 
 def createDataSet():
@@ -106,3 +108,15 @@ def handwritingClassTest():
         if (classifierResult != classNumStr): errorCount += 1.0
     print("\nthe total number of errors is: %d" % errorCount)
     print("\nthe total error rate is: %f" % (errorCount/float(mTest)))
+
+if __name__=='__main__':
+    # test demo
+    # group,labels = createDataSet()
+    # print(group,labels)
+    # print(classify0([0,0],group,labels,3))
+    # datingTestSet数据测试
+    datingDataMat,datingLabels = file2matrix('datingTestSet2.txt')
+    fig = plt.figure()
+    ax = fig.add_subplot(111)
+    ax.scatter(datingDataMat[:,0],datingDataMat[:,1],15.0*array(datingLabels),15.0*array(datingLabels))
+    plt.show()
