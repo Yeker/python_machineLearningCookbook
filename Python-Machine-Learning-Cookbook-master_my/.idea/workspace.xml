@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b18dbc1e-8e8e-46e3-b5f3-15eda8f5d462" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Chapter03/Ch02/kNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/Ch02/kNN.py" afterDir="false" />
-    </list>
+    <list default="true" id="b18dbc1e-8e8e-46e3-b5f3-15eda8f5d462" name="Default" comment="" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -348,7 +346,7 @@
       <workItem from="1548714584782" duration="3082000" />
       <workItem from="1548885405502" duration="2625000" />
       <workItem from="1548975664817" duration="1704000" />
-      <workItem from="1549112797362" duration="4027000" />
+      <workItem from="1549112797362" duration="4199000" />
     </task>
     <servers />
   </component>
@@ -358,7 +356,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16183000" />
+    <option name="totallyTimeSpent" value="16355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
