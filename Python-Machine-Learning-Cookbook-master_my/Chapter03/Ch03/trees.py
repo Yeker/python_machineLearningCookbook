@@ -115,6 +115,7 @@ if __name__=='__main__':
 #     myTree = treePlotter.retrieveTree(0)
 #     print(myTree)
 #     treePlotter.createPlot(myTree)
+# 使用决策是预测隐形眼镜类型
     fr=open('lenses.txt')
     lenses = [inst.strip().split('\t') for inst in fr.readlines()]
     lensesLabels = ['age','prescript','astigmatic','trarrate']

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b18dbc1e-8e8e-46e3-b5f3-15eda8f5d462" name="Default" comment="" />
+    <list default="true" id="b18dbc1e-8e8e-46e3-b5f3-15eda8f5d462" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Chapter03/Ch03/trees.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/Ch03/trees.py" afterDir="false" />
+    </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +18,7 @@
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$svm.coverage" NAME="svm Coverage Results" MODIFIED="1548714873484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
     <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$car.coverage" NAME="car Coverage Results" MODIFIED="1548112418701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter02" />
     <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$bike_sharing.coverage" NAME="bike_sharing Coverage Results" MODIFIED="1545746035406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter01" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$bayes.coverage" NAME="bayes Coverage Results" MODIFIED="1549238518625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03/Ch04" />
     <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$confusion_matrix.coverage" NAME="confusion_matrix Coverage Results" MODIFIED="1547504388038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter02" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$utilities.coverage" NAME="utilities Coverage Results" MODIFIED="1548631780898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$trees.coverage" NAME="trees Coverage Results" MODIFIED="1549236719541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03/Ch03" />
@@ -52,14 +55,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter03/Ch03/trees.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="121" column="38" lean-forward="true" selection-start-line="121" selection-start-column="38" selection-end-line="121" selection-end-column="38" />
+            <state relative-caret-position="253">
+              <caret line="107" selection-start-line="107" selection-end-line="107" selection-end-column="24" />
               <folding>
                 <element signature="e#121#141#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter03/Ch04/bayes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="94" column="33" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/python/3.7.2_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="321" selection-start-line="321" selection-end-line="321" />
             </state>
           </provider>
         </entry>
@@ -120,10 +141,11 @@
         <option value="$PROJECT_DIR$/Chapter03/Ch02/kNN.py" />
         <option value="$PROJECT_DIR$/Chapter03/Ch03/treePlotter.py" />
         <option value="$PROJECT_DIR$/Chapter03/Ch03/trees.py" />
+        <option value="$PROJECT_DIR$/Chapter03/Ch04/bayes.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="808" />
@@ -151,7 +173,7 @@
               <item name="Python-Machine-Learning-Cookbook-master_my" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-Machine-Learning-Cookbook-master_my" type="462c0819:PsiDirectoryNode" />
               <item name="Chapter03" type="462c0819:PsiDirectoryNode" />
-              <item name="Ch03" type="462c0819:PsiDirectoryNode" />
+              <item name="Ch04" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.trees">
+  <component name="RunManager" selected="Python.bayes">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -197,6 +219,28 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method />
+    </configuration>
+    <configuration name="bayes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python-Machine-Learning-Cookbook-master_my" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter03/Ch04" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter03/Ch04/bayes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="event" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-Machine-Learning-Cookbook-master_my" />
@@ -234,28 +278,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter03/Ch02/kNN.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="perform_grid_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python-Machine-Learning-Cookbook-master_my" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter03" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter03/perform_grid_search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -318,19 +340,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.perform_grid_search" />
       <item itemvalue="Python.event" />
       <item itemvalue="Python.traffic" />
       <item itemvalue="Python.kNN" />
       <item itemvalue="Python.trees" />
+      <item itemvalue="Python.bayes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bayes" />
         <item itemvalue="Python.trees" />
         <item itemvalue="Python.kNN" />
         <item itemvalue="Python.traffic" />
         <item itemvalue="Python.event" />
-        <item itemvalue="Python.perform_grid_search" />
       </list>
     </recent_temporary>
   </component>
@@ -349,7 +371,7 @@
       <workItem from="1548714584782" duration="3082000" />
       <workItem from="1548885405502" duration="2625000" />
       <workItem from="1548975664817" duration="1704000" />
-      <workItem from="1549112797362" duration="8009000" />
+      <workItem from="1549112797362" duration="10081000" />
     </task>
     <servers />
   </component>
@@ -359,7 +381,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20165000" />
+    <option name="totallyTimeSpent" value="22237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
@@ -370,7 +392,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4892396" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4892396" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.62984216" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -471,23 +493,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter01/PCA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01/bike_sharing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="37" column="94" selection-start-line="37" selection-start-column="94" selection-end-line="37" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01/Ch08/ex0.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter01/Ch08/setHtml/lego8288.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -788,13 +793,30 @@
     <entry file="file://$PROJECT_DIR$/Chapter03/Ch03/lenses.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter03/Ch03/classifierStorage.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter03/Ch03/trees.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="121" column="38" lean-forward="true" selection-start-line="121" selection-start-column="38" selection-end-line="121" selection-end-column="38" />
+        <state relative-caret-position="253">
+          <caret line="107" selection-start-line="107" selection-end-line="107" selection-end-column="24" />
           <folding>
             <element signature="e#121#141#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.2_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="321" selection-start-line="321" selection-end-line="321" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter03/Ch04/bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="94" column="33" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
         </state>
       </provider>
     </entry>
