@@ -4,6 +4,7 @@ Created on Oct 19, 2010
 @author: Peter
 '''
 from numpy import *
+import feedparser
 
 def loadDataSet():
     postingList=[['my', 'dog', 'has', 'flea', 'problems', 'help', 'please'],
@@ -116,7 +117,7 @@ def calcMostFreq(vocabList,fullText):
     freqDict = {}
     for token in vocabList:
         freqDict[token]=fullText.count(token)
-    sortedFreq = sorted(freqDict.iteritems(), key=operator.itemgetter(1), reverse=True) 
+    sortedFreq = sorted(freqDict.items(), key=operator.itemgetter(1), reverse=True)
     return sortedFreq[:30]       
 
 def localWords(feed1,feed0):
@@ -136,7 +137,7 @@ def localWords(feed1,feed0):
     top30Words = calcMostFreq(vocabList,fullText)   #remove top 30 words
     for pairW in top30Words:
         if pairW[0] in vocabList: vocabList.remove(pairW[0])
-    trainingSet = range(2*minLen); testSet=[]           #create test set
+    trainingSet = list(range(2*minLen)); testSet=[]           #create test set
     for i in range(20):
         randIndex = int(random.uniform(0,len(trainingSet)))
         testSet.append(trainingSet[randIndex])
@@ -170,14 +171,21 @@ def getTopWords(ny,sf):
     for item in sortedNY:
         print(item[0])
 if __name__=='__main__':
-    listOPosts,listClasses = loadDataSet()
-    myVocabList = createVocabList(listOPosts)
-    print(myVocabList)
-    print(setOfWords2Vec(myVocabList,listOPosts[0]))
-    trainMat = []
-    for postinDoc in listOPosts:
-        trainMat.append(setOfWords2Vec(myVocabList,postinDoc))
-    p0V,p1V,pAb = trainNB0(trainMat,listClasses)
-    print(p0V,p1V,pAb)
-    # 对垃圾邮件进行分类
-    print(spamTest())
+    # listOPosts,listClasses = loadDataSet()
+    # myVocabList = createVocabList(listOPosts)
+    # print(myVocabList)
+    # print(setOfWords2Vec(myVocabList,listOPosts[0]))
+    # trainMat = []
+    # for postinDoc in listOPosts:
+    #     trainMat.append(setOfWords2Vec(myVocabList,postinDoc))
+    # p0V,p1V,pAb = trainNB0(trainMat,listClasses)
+    # print(p0V,p1V,pAb)
+    # # 对垃圾邮件进行分类
+    # print(spamTest())
+    # 使用朴素贝叶斯分类器从个人广告中获取区域倾向
+    # ny = feedparser.parse('http://newyork.craigslist.org/stp/index.rss')
+    # print(ny)
+    # print(len(ny['entries']))
+    ny = feedparser.parse('http://newyork.craigslist.org/stp/index.rss')
+    sf = feedparser.parse('http://sfbay.craigslist.org/stp/index.rss')
+    vocabList,pSF,pNF = localWords(ny,sf)
