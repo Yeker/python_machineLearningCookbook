@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b18dbc1e-8e8e-46e3-b5f3-15eda8f5d462" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Chapter03/Ch04/bayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/Ch04/bayes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,28 +12,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$data_analysis.coverage" NAME="data_analysis Coverage Results" MODIFIED="1545661551082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter01" />
     <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$testmain.coverage" NAME="testmain Coverage Results" MODIFIED="1546957929090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter01/part 2" />
-    <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$PCA.coverage" NAME="PCA Coverage Results" MODIFIED="1545661540770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter01" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$svmMLiA.coverage" NAME="svmMLiA Coverage Results" MODIFIED="1549547149988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03/Ch06" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$svm.coverage" NAME="svm Coverage Results" MODIFIED="1548714873484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
-    <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$car.coverage" NAME="car Coverage Results" MODIFIED="1548112418701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter02" />
     <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$bike_sharing.coverage" NAME="bike_sharing Coverage Results" MODIFIED="1545746035406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter01" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$bayes.coverage" NAME="bayes Coverage Results" MODIFIED="1549325118428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03/Ch04" />
     <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$confusion_matrix.coverage" NAME="confusion_matrix Coverage Results" MODIFIED="1547504388038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter02" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$utilities.coverage" NAME="utilities Coverage Results" MODIFIED="1548631780898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
-    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$trees.coverage" NAME="trees Coverage Results" MODIFIED="1549236719541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03/Ch03" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$svm_imbalance.coverage" NAME="svm_imbalance Coverage Results" MODIFIED="1548715623542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
-    <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$main.coverage" NAME="main Coverage Results" MODIFIED="1546957351166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter01/Ch08" />
     <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$Unittest_plot_confusion_matrix.coverage" NAME="Unittest plot_confusion_matrix Coverage Results" MODIFIED="1547504346394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter02" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$svm_confidence.coverage" NAME="svm_confidence Coverage Results" MODIFIED="1548716478437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$income.coverage" NAME="income Coverage Results" MODIFIED="1548631065965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter02" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$perform_grid_search.coverage" NAME="perform_grid_search Coverage Results" MODIFIED="1548886594938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
+    <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$data_analysis.coverage" NAME="data_analysis Coverage Results" MODIFIED="1545661551082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter01" />
+    <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$PCA.coverage" NAME="PCA Coverage Results" MODIFIED="1545661540770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter01" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$adaboost.coverage" NAME="adaboost Coverage Results" MODIFIED="1549555594765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03/Ch07" />
+    <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$car.coverage" NAME="car Coverage Results" MODIFIED="1548112418701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter02" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$trees.coverage" NAME="trees Coverage Results" MODIFIED="1549236719541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03/Ch03" />
+    <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$main.coverage" NAME="main Coverage Results" MODIFIED="1546957351166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter01/Ch08" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$car.coverage" NAME="car Coverage Results" MODIFIED="1548630801060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter02" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$event.coverage" NAME="event Coverage Results" MODIFIED="1548887609164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
     <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$housing.coverage" NAME="housing Coverage Results" MODIFIED="1545573534199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter01" />
-    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$svm_confidence.coverage" NAME="svm_confidence Coverage Results" MODIFIED="1548716478437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$logRegres.coverage" NAME="logRegres Coverage Results" MODIFIED="1549545976936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03/Ch05" />
     <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$income.coverage" NAME="income Coverage Results" MODIFIED="1548111769336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter02" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$traffic.coverage" NAME="traffic Coverage Results" MODIFIED="1549113220717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$kNN.coverage" NAME="kNN Coverage Results" MODIFIED="1549200198108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03/Ch02" />
-    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$income.coverage" NAME="income Coverage Results" MODIFIED="1548631065965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter02" />
-    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$perform_grid_search.coverage" NAME="perform_grid_search Coverage Results" MODIFIED="1548886594938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -42,7 +45,17 @@
     <favorites_list name="Python-Machine-Learning-Cookbook-master_my" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter03/Ch07/adaboost.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,6 +98,9 @@
         <option value="$PROJECT_DIR$/Chapter03/Ch03/treePlotter.py" />
         <option value="$PROJECT_DIR$/Chapter03/Ch03/trees.py" />
         <option value="$PROJECT_DIR$/Chapter03/Ch04/bayes.py" />
+        <option value="$PROJECT_DIR$/Chapter03/Ch05/logRegres.py" />
+        <option value="$PROJECT_DIR$/Chapter03/Ch06/svmMLiA.py" />
+        <option value="$PROJECT_DIR$/Chapter03/Ch07/adaboost.py" />
       </list>
     </option>
   </component>
@@ -99,7 +115,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,15 +122,11 @@
               <item name="Python-Machine-Learning-Cookbook-master_my" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-Machine-Learning-Cookbook-master_my" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Python-Machine-Learning-Cookbook-master_my" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python-Machine-Learning-Cookbook-master_my" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter03" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -136,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.bayes">
+  <component name="RunManager" selected="Python.adaboost">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,6 +167,28 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method />
+    </configuration>
+    <configuration name="adaboost" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python-Machine-Learning-Cookbook-master_my" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter03/Ch07" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter03/Ch07/adaboost.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="bayes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-Machine-Learning-Cookbook-master_my" />
@@ -179,7 +212,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="event" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="logRegres" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-Machine-Learning-Cookbook-master_my" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,12 +220,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter03/Ch05" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter03/event.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter03/Ch05/logRegres.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,7 +234,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="svmMLiA" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-Machine-Learning-Cookbook-master_my" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,34 +242,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter03/Ch02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter03/Ch06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter03/Ch02/kNN.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="traffic" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python-Machine-Learning-Cookbook-master_my" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter03" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter03/traffic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter03/Ch06/svmMLiA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,19 +288,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.event" />
-      <item itemvalue="Python.traffic" />
-      <item itemvalue="Python.kNN" />
       <item itemvalue="Python.trees" />
       <item itemvalue="Python.bayes" />
+      <item itemvalue="Python.logRegres" />
+      <item itemvalue="Python.svmMLiA" />
+      <item itemvalue="Python.adaboost" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.adaboost" />
+        <item itemvalue="Python.svmMLiA" />
+        <item itemvalue="Python.logRegres" />
         <item itemvalue="Python.bayes" />
         <item itemvalue="Python.trees" />
-        <item itemvalue="Python.kNN" />
-        <item itemvalue="Python.traffic" />
-        <item itemvalue="Python.event" />
       </list>
     </recent_temporary>
   </component>
@@ -309,6 +320,7 @@
       <workItem from="1548885405502" duration="2625000" />
       <workItem from="1548975664817" duration="1704000" />
       <workItem from="1549112797362" duration="11217000" />
+      <workItem from="1549545154770" duration="5870000" />
     </task>
     <servers />
   </component>
@@ -318,17 +330,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23373000" />
+    <option name="totallyTimeSpent" value="29243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26585016" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27017292" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4892396" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4892396" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.62984216" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -429,39 +442,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter01/Ch08/setHtml/lego8288.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01/Ch08/abalone.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01/Ch08/setHtml/lego10030.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01/Ch08/setHtml/lego10181.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01/Ch08/setHtml/lego10179.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01/Ch08/setHtml/lego10189.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01/Ch08/setHtml/lego10196.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm50/system/python_stubs/-965805770/numpy/random/mtrand.py" />
-    <entry file="file://$PROJECT_DIR$/Chapter01/Ch08/regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="181" column="27" selection-start-line="181" selection-start-column="27" selection-end-line="181" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter01/Ch08/Old_regression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -729,16 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter03/Ch04/bayes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-376">
-          <caret line="142" selection-start-line="142" selection-end-line="142" />
-          <folding>
-            <element signature="e#48#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter03/Ch03/trees.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -756,6 +726,59 @@
           <folding>
             <element signature="e#384#403#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter03/Ch05/logRegres.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="113" column="5" lean-forward="true" selection-start-line="113" selection-end-line="113" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter03/Ch04/bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="172" column="7" selection-start-line="172" selection-end-line="172" selection-end-column="24" />
+          <folding>
+            <element signature="e#48#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter03/Ch05/horseColicTest.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter03/Ch05/horseColicTraining.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter03/Ch05/testSet.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter03/Ch06/testSet.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter03/Ch07/old_adaboost.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter03/Ch06/svmMLiA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="347" selection-start-line="347" selection-end-line="347" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/numpy/matrixlib/defmatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter03/Ch07/adaboost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
         </state>
       </provider>
     </entry>
