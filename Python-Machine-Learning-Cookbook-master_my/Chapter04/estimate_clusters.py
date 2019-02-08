@@ -1,3 +1,4 @@
+# coding:utf-8
 from itertools import cycle
 
 import numpy as np
@@ -7,6 +8,7 @@ import matplotlib.pyplot as plt
 
 from utilities import load_data
 
+# 用DBSCAN算法自动估算集群数量
 # Load input data
 input_file = 'data_perf.txt'
 X = load_data(input_file)
@@ -29,7 +31,7 @@ for eps in eps_grid:
     silhouette_score = round(metrics.silhouette_score(X, labels), 4)
     silhouette_scores.append(silhouette_score)
 
-    print "Epsilon:", eps, " --> silhouette score:", silhouette_score
+    print("Epsilon:", eps, " --> silhouette score:", silhouette_score)
 
     if silhouette_score > silhouette_score_max:
         silhouette_score_max = silhouette_score
@@ -43,7 +45,7 @@ plt.bar(eps_grid, silhouette_scores, width=0.05, color='k', align='center')
 plt.title('Silhouette score vs epsilon')
 
 # Best params
-print "\nBest epsilon =", eps_best
+print("\nBest epsilon =", eps_best)
 
 # Associated model and labels for best epsilon
 model = model_best 
@@ -57,7 +59,7 @@ if -1 in labels:
 # Number of clusters in the data 
 num_clusters = len(set(labels)) - offset 
 
-print "\nEstimated number of clusters =", num_clusters
+print("\nEstimated number of clusters =", num_clusters)
 
 # Extracts the core samples from the trained model
 mask_core = np.zeros(labels.shape, dtype=np.bool)

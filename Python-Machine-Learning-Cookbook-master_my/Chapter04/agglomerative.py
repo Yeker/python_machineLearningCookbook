@@ -1,8 +1,10 @@
+# coding:utf-8
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.cluster import AgglomerativeClustering
 from sklearn.neighbors import kneighbors_graph
 
+# 凝聚层次聚类进行数据分组
 def add_noise(x, y, amplitude):
     X = np.concatenate((x, y))
     X += amplitude * np.random.randn(2, X.shape[1])

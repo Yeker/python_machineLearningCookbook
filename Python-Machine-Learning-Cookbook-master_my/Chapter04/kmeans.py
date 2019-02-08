@@ -1,3 +1,4 @@
+# coding:utf-8
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import metrics
@@ -5,6 +6,7 @@ from sklearn.cluster import KMeans
 
 import utilities
 
+# 用k-means算法聚类数据
 # Load data
 data = utilities.load_data('data_multivar.txt')
 num_clusters = 4

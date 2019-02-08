@@ -18,8 +18,8 @@ for i in range_values:
     score = metrics.silhouette_score(data, kmeans.labels_, 
                 metric='euclidean', sample_size=len(data))
 
-    print "\nNumber of clusters =", i
-    print "Silhouette score =", score
+    print("\nNumber of clusters =", i)
+    print("Silhouette score =", score)
                     
     scores.append(score)
 

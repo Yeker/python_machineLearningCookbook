@@ -1,9 +1,13 @@
+# coding:utf-8
 import argparse
 
 import numpy as np
 from scipy import misc 
 from sklearn import cluster
 import matplotlib.pyplot as plt
+# 用矢量量化压缩图片
+
+
 
 def build_arg_parser():
     parser = argparse.ArgumentParser(description='Compress the input image \
@@ -39,6 +43,7 @@ def plot_image(img, title):
     plt.imshow(img, cmap=plt.cm.gray, vmin=vmin, vmax=vmax)
 
 if __name__=='__main__':
+    # python vector_quantization.py --input-file flower_image.jpg --num-bits 4
     args = build_arg_parser().parse_args()
     input_file = args.input_file
     num_bits = args.num_bits
@@ -50,8 +55,8 @@ if __name__=='__main__':
 
     # Print compression rate
     compression_rate = round(100 * (8.0 - args.num_bits) / 8.0, 2)
-    print "\nThe size of the image will be reduced by a factor of", 8.0/args.num_bits
-    print "\nCompression rate = " + str(compression_rate) + "%"
+    print("\nThe size of the image will be reduced by a factor of", 8.0/args.num_bits)
+    print("\nCompression rate = " + str(compression_rate) + "%")
 
     # Load input image
     input_image = misc.imread(input_file, True).astype(np.uint8)

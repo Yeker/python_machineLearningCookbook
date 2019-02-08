@@ -3,6 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="b18dbc1e-8e8e-46e3-b5f3-15eda8f5d462" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter04/agglomerative.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter04/agglomerative.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter04/customer_segmentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter04/customer_segmentation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter04/estimate_clusters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter04/estimate_clusters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter04/kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter04/kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter04/mean_shift.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter04/mean_shift.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter04/performance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter04/performance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter04/stock_market.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter04/stock_market.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter04/utilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter04/utilities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter04/vector_quantization.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter04/vector_quantization.py" afterDir="false" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,6 +21,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$performance.coverage" NAME="performance Coverage Results" MODIFIED="1549583965461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter04" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$vector_quantization.coverage" NAME="vector_quantization Coverage Results" MODIFIED="1549583254135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter04" />
     <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$testmain.coverage" NAME="testmain Coverage Results" MODIFIED="1546957929090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter01/part 2" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$svmMLiA.coverage" NAME="svmMLiA Coverage Results" MODIFIED="1549547149988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03/Ch06" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$svm.coverage" NAME="svm Coverage Results" MODIFIED="1548714873484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
@@ -20,19 +31,26 @@
     <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$confusion_matrix.coverage" NAME="confusion_matrix Coverage Results" MODIFIED="1547504388038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter02" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$utilities.coverage" NAME="utilities Coverage Results" MODIFIED="1548631780898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$svm_imbalance.coverage" NAME="svm_imbalance Coverage Results" MODIFIED="1548715623542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$estimate_clusters.coverage" NAME="estimate_clusters Coverage Results" MODIFIED="1549584112201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter04" />
     <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$Unittest_plot_confusion_matrix.coverage" NAME="Unittest plot_confusion_matrix Coverage Results" MODIFIED="1547504346394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter02" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$kmeans.coverage" NAME="kmeans Coverage Results" MODIFIED="1549582887859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter04" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$mean_shift.coverage" NAME="mean_shift Coverage Results" MODIFIED="1549583687370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter04" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$stock_market.coverage" NAME="stock_market Coverage Results" MODIFIED="1549613545273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter04" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$svm_confidence.coverage" NAME="svm_confidence Coverage Results" MODIFIED="1548716478437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$income.coverage" NAME="income Coverage Results" MODIFIED="1548631065965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter02" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$perform_grid_search.coverage" NAME="perform_grid_search Coverage Results" MODIFIED="1548886594938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$agglomerative.coverage" NAME="agglomerative Coverage Results" MODIFIED="1549583808977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter04" />
     <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$data_analysis.coverage" NAME="data_analysis Coverage Results" MODIFIED="1545661551082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter01" />
     <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$PCA.coverage" NAME="PCA Coverage Results" MODIFIED="1545661540770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter01" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$adaboost.coverage" NAME="adaboost Coverage Results" MODIFIED="1549555594765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03/Ch07" />
     <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$car.coverage" NAME="car Coverage Results" MODIFIED="1548112418701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter02" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$customer_segmentation.coverage" NAME="customer_segmentation Coverage Results" MODIFIED="1549613905379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter04" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$trees.coverage" NAME="trees Coverage Results" MODIFIED="1549236719541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03/Ch03" />
     <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$main.coverage" NAME="main Coverage Results" MODIFIED="1546957351166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter01/Ch08" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$car.coverage" NAME="car Coverage Results" MODIFIED="1548630801060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter02" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$event.coverage" NAME="event Coverage Results" MODIFIED="1548887609164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
     <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$housing.coverage" NAME="housing Coverage Results" MODIFIED="1545573534199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter01" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$test.coverage" NAME="test Coverage Results" MODIFIED="1549610890919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter04" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$logRegres.coverage" NAME="logRegres Coverage Results" MODIFIED="1549545976936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03/Ch05" />
     <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$income.coverage" NAME="income Coverage Results" MODIFIED="1548111769336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter02" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$traffic.coverage" NAME="traffic Coverage Results" MODIFIED="1549113220717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
@@ -41,16 +59,66 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="Python-Machine-Learning-Cookbook-master_my" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter03/Ch07/adaboost.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter04/stock_market.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
+            <state relative-caret-position="185">
+              <caret line="64" column="31" lean-forward="true" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter04/customer_segmentation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter04/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter04/symbol_map.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-891">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -101,6 +169,17 @@
         <option value="$PROJECT_DIR$/Chapter03/Ch05/logRegres.py" />
         <option value="$PROJECT_DIR$/Chapter03/Ch06/svmMLiA.py" />
         <option value="$PROJECT_DIR$/Chapter03/Ch07/adaboost.py" />
+        <option value="$PROJECT_DIR$/Chapter04/utilities.py" />
+        <option value="$PROJECT_DIR$/Chapter04/kmeans.py" />
+        <option value="$PROJECT_DIR$/Chapter04/vector_quantization.py" />
+        <option value="$PROJECT_DIR$/Chapter04/mean_shift.py" />
+        <option value="$PROJECT_DIR$/Chapter04/agglomerative.py" />
+        <option value="$PROJECT_DIR$/Chapter04/performance.py" />
+        <option value="$PROJECT_DIR$/Chapter04/estimate_clusters.py" />
+        <option value="$PROJECT_DIR$/Chapter04/symbol_map.json" />
+        <option value="$PROJECT_DIR$/Chapter04/test.py" />
+        <option value="$PROJECT_DIR$/Chapter04/stock_market.py" />
+        <option value="$PROJECT_DIR$/Chapter04/customer_segmentation.py" />
       </list>
     </option>
   </component>
@@ -115,6 +194,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,11 +202,15 @@
               <item name="Python-Machine-Learning-Cookbook-master_my" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-Machine-Learning-Cookbook-master_my" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Python-Machine-Learning-Cookbook-master_my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python-Machine-Learning-Cookbook-master_my" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.adaboost">
+  <component name="RunManager" selected="Python.customer_segmentation">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,7 +252,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="adaboost" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="customer_segmentation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-Machine-Learning-Cookbook-master_my" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -176,12 +260,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter03/Ch07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter04" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter03/Ch07/adaboost.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter04/customer_segmentation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,7 +274,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bayes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="estimate_clusters" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-Machine-Learning-Cookbook-master_my" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,12 +282,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter03/Ch04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter04" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter03/Ch04/bayes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter04/estimate_clusters.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,7 +296,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logRegres" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="performance" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-Machine-Learning-Cookbook-master_my" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,12 +304,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter03/Ch05" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter04" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter03/Ch05/logRegres.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter04/performance.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,7 +318,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="svmMLiA" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="stock_market" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-Machine-Learning-Cookbook-master_my" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -242,12 +326,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter03/Ch06" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter04" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter03/Ch06/svmMLiA.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter04/stock_market.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,7 +340,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="trees" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-Machine-Learning-Cookbook-master_my" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,12 +348,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter03/Ch03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter04" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter03/Ch03/trees.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter04/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,19 +372,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.trees" />
-      <item itemvalue="Python.bayes" />
-      <item itemvalue="Python.logRegres" />
-      <item itemvalue="Python.svmMLiA" />
-      <item itemvalue="Python.adaboost" />
+      <item itemvalue="Python.performance" />
+      <item itemvalue="Python.estimate_clusters" />
+      <item itemvalue="Python.stock_market" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.customer_segmentation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.adaboost" />
-        <item itemvalue="Python.svmMLiA" />
-        <item itemvalue="Python.logRegres" />
-        <item itemvalue="Python.bayes" />
-        <item itemvalue="Python.trees" />
+        <item itemvalue="Python.customer_segmentation" />
+        <item itemvalue="Python.stock_market" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.estimate_clusters" />
+        <item itemvalue="Python.performance" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +404,9 @@
       <workItem from="1548885405502" duration="2625000" />
       <workItem from="1548975664817" duration="1704000" />
       <workItem from="1549112797362" duration="11217000" />
-      <workItem from="1549545154770" duration="5870000" />
+      <workItem from="1549545154770" duration="6023000" />
+      <workItem from="1549556525730" duration="2669000" />
+      <workItem from="1549589176279" duration="9642000" />
     </task>
     <servers />
   </component>
@@ -330,33 +416,42 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29243000" />
+    <option name="totallyTimeSpent" value="41707000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27017292" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28025937" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4892396" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.62984216" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4892396" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.52080345" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32998565" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32998565" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32998565" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32998565" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" x="262" y="66" width="1053" height="605" id="SciView" order="4" type="WINDOWED" weight="0.3299712" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3299712" />
+      <window_info anchor="right" x="209" y="130" width="1053" height="605" id="SciView" order="4" type="WINDOWED" weight="0.3299712" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,162 +533,25 @@
           <line>38</line>
           <option name="timeStamp" value="83" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Chapter04/test.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Chapter04/test.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Chapter04/test.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter01/Ch08/Old_regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="120" column="7" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01/part 2/part2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="201" selection-start-line="201" selection-end-line="240" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01/Ch08/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="279" selection-start-line="279" selection-end-line="279" />
-          <folding>
-            <element signature="e#15#34#0" />
-            <element signature="e#152#564#0" />
-            <element signature="e#598#807#0" />
-            <element signature="e#857#1341#0" />
-            <element signature="e#1448#1575#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01/part 2/017/TRD_Index.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter01/part 2/testmain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter02/logistic_regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter02/data_multivar.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter02/naive_bayes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter02/confusion_matrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2410" selection-start-line="2410" selection-end-line="2410" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/sklearn/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/sklearn/utils/validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="796" selection-start-line="796" selection-end-line="796" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter02/说明">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter02/adult.data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter02/income.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter02/car.data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter02/car.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="49" selection-start-line="49" selection-end-line="50" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter02/simple_classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#24#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/sklearn/svm/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="195" selection-start-line="195" selection-end-line="195" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter03/svm_confidence.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -702,13 +660,6 @@
     <entry file="file://$PROJECT_DIR$/Chapter03/Ch03/classifierStorage.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file:///usr/local/Cellar/python/3.7.2_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="321" selection-start-line="321" selection-end-line="321" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter03/Ch03/trees.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -777,8 +728,178 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter03/Ch07/adaboost.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
+        <state relative-caret-position="473">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter04/data_multivar.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter04/utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="80" column="28" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter04/kmeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1292">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter04/vector_quantization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1113">
+          <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter04/mean_shift.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter04/agglomerative.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter04/performance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter04/estimate_clusters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="61" column="55" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/pandas_datareader/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="305" selection-start-line="305" selection-end-line="305" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="2657" selection-start-line="2657" selection-end-line="2657" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="2926" selection-start-line="2926" selection-end-line="2926" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/pandas_datareader/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="209" selection-start-line="209" selection-end-line="209" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/pandas_datareader/yahoo/daily.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter04/symbol_map.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-891">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.2_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter04/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/sklearn/model_selection/_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="2052" selection-start-line="2052" selection-end-line="2052" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/sklearn/utils/deprecation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="1740" column="10" lean-forward="true" selection-start-line="1740" selection-start-column="10" selection-end-line="1740" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter04/stock_market.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="64" column="31" lean-forward="true" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter04/customer_segmentation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

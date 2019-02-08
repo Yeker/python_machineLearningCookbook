@@ -1,8 +1,11 @@
+# coding:utf-8
 import numpy as np
 from sklearn.cluster import MeanShift, estimate_bandwidth
 
 import utilities
 
+
+# 均值漂移聚类模型
 # Load data from input file
 X = utilities.load_data('data_multivar.txt')
 
@@ -16,7 +19,7 @@ labels = meanshift_estimator.labels_
 centroids = meanshift_estimator.cluster_centers_
 num_clusters = len(np.unique(labels))
 
-print "Number of clusters in input data =", num_clusters
+print("Number of clusters in input data =", num_clusters)
 
 ###########################################################
 # Plot the points and centroids 

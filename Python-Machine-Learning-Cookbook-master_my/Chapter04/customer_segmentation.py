@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 # Load data from input file
 input_file = 'wholesale.csv'
-file_reader = csv.reader(open(input_file, 'rb'), delimiter=',')
+file_reader = csv.reader(open(input_file, 'r',encoding="utf-8"), delimiter=',')
 X = []
 for count, row in enumerate(file_reader):
     if not count:
@@ -29,12 +29,12 @@ labels = meanshift_estimator.labels_
 centroids = meanshift_estimator.cluster_centers_
 num_clusters = len(np.unique(labels))
 
-print "\nNumber of clusters in input data =", num_clusters
+print("\nNumber of clusters in input data =", num_clusters)
 
-print "\nCentroids of clusters:"
-print '\t'.join([name[:3] for name in names])
+print("\nCentroids of clusters:")
+print('\t'.join([name[:3] for name in names]))
 for centroid in centroids:
-    print '\t'.join([str(int(x)) for x in centroid])
+    print('\t'.join([str(int(x)) for x in centroid]))
 
 ################
 # Visualizing data
