@@ -5,6 +5,7 @@ from sklearn import neighbors, datasets
 
 from utilities import load_data
 
+# 构建一个KNN分类器
 # Load input data
 input_file = 'data_nn_classifier.txt'
 data = load_data(input_file)

@@ -2,7 +2,7 @@ from sklearn.datasets import samples_generator
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_selection import SelectKBest, f_regression
 from sklearn.pipeline import Pipeline
-
+# 构建机器学习流水线
 # generate sample data
 X, y = samples_generator.make_classification(
         n_informative=4, n_features=20, n_redundant=0, random_state=5)
@@ -28,10 +28,10 @@ pipeline_classifier.fit(X, y)
 
 # Predict the output
 prediction = pipeline_classifier.predict(X)
-print "\nPredictions:\n", prediction
+print("\nPredictions:\n", prediction)
 
 # Print score
-print "\nScore:", pipeline_classifier.score(X, y)                        
+print("\nScore:", pipeline_classifier.score(X, y))
 
 # Print the selected features chosen by the selector
 features_status = pipeline_classifier.named_steps['selector'].get_support()
@@ -40,5 +40,5 @@ for count, item in enumerate(features_status):
     if item:
         selected_features.append(count)
 
-print "\nSelected features (0-indexed):", ', '.join([str(x) for x in selected_features])
+print("\nSelected features (0-indexed):", ', '.join([str(x) for x in selected_features]))
 
