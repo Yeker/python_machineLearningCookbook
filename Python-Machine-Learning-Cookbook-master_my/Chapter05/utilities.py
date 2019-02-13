@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn import cross_validation
+from sklearn import model_selection
 
 # Load multivar data in the input file
 def load_data(input_file):

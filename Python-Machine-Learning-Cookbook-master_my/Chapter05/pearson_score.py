@@ -1,6 +1,8 @@
 import json
 import numpy as np
 
+
+# 计算欧式距离分数
 # Returns the Pearson correlation score between user1 and user2 
 def pearson_score(dataset, user1, user2):
     if user1 not in dataset:
@@ -52,5 +54,5 @@ if __name__=='__main__':
     user1 = 'John Carson'
     user2 = 'Michelle Peterson'
 
-    print "\nPearson score:"
-    print pearson_score(data, user1, user2) 
+    print("\nPearson score:")
+    print(pearson_score(data, user1, user2))

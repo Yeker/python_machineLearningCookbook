@@ -64,7 +64,7 @@ plt.scatter(test_datapoint[0], test_datapoint[1], marker='x',
         linewidth=3, s=200, facecolors='black')
 
 # Extract k nearest neighbors
-dist, indices = classifier.kneighbors(test_datapoint)
+dist, indices = classifier.kneighbors([test_datapoint])
 
 # Plot k nearest neighbors
 plt.figure()
@@ -81,7 +81,7 @@ for i in range(X.shape[0]):
     plt.scatter(X[i, 0], X[i, 1], marker=mapper[i], 
             s=50, edgecolors='black', facecolors='none')
 
-print "Predicted output:", classifier.predict(test_datapoint)[0]
+print("Predicted output:", classifier.predict([test_datapoint])[0])
 
 plt.show()
 

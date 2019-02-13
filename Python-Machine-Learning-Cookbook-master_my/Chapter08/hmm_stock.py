@@ -26,7 +26,7 @@ dates = dates[1:]
 X = np.column_stack([diff_percentage, volume_of_shares])
 
 # Create and train Gaussian HMM 
-print "\nTraining HMM...."
+print("\nTraining HMM....")
 model = GaussianHMM(n_components=5, covariance_type="diag", n_iter=1000)
 model.fit(X)
 

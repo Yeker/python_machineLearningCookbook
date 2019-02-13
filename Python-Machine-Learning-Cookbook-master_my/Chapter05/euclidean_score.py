@@ -37,5 +37,5 @@ if __name__=='__main__':
     user1 = 'John Carson'
     user2 = 'Michelle Peterson'
 
-    print "\nEuclidean score:"
-    print euclidean_score(data, user1, user2) 
+    print("\nEuclidean score:")
+    print(euclidean_score(data, user1, user2))

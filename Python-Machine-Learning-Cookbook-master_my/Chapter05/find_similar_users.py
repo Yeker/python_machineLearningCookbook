@@ -29,8 +29,8 @@ if __name__=='__main__':
         data = json.loads(f.read())
 
     user = 'John Carson'
-    print "\nUsers similar to " + user + ":\n"
+    print("\nUsers similar to " + user + ":\n")
     similar_users = find_similar_users(data, user, 3) 
-    print "User\t\t\tSimilarity score\n"
+    print("User\t\t\tSimilarity score\n")
     for item in similar_users:
-        print item[0], '\t\t', round(float(item[1]), 2)
+        print(item[0], '\t\t', round(float(item[1]), 2))

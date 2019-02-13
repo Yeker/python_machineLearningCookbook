@@ -45,13 +45,13 @@ if __name__=='__main__':
         data = json.loads(f.read())
 
     user = 'Michael Henry'
-    print "\nRecommendations for " + user + ":"
+    print("\nRecommendations for " + user + ":")
     movies = generate_recommendations(data, user) 
     for i, movie in enumerate(movies):
-        print str(i+1) + '. ' + movie
+        print(str(i+1) + '. ' + movie)
 
     user = 'John Carson' 
-    print "\nRecommendations for " + user + ":"
+    print("\nRecommendations for " + user + ":")
     movies = generate_recommendations(data, user) 
     for i, movie in enumerate(movies):
-        print str(i+1) + '. ' + movie
+        print(str(i+1) + '. ' + movie)

@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import neighbors
 
+# 构建knn回归器
 # Generate sample data
 amplitude = 10
 num_points = 100

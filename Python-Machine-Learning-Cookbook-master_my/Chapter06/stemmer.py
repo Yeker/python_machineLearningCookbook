@@ -12,8 +12,8 @@ stemmer_lancaster = LancasterStemmer()
 stemmer_snowball = SnowballStemmer('english')
 
 formatted_row = '{:>16}' * (len(stemmers) + 1)
-print '\n', formatted_row.format('WORD', *stemmers), '\n'
+print('\n', formatted_row.format('WORD', *stemmers), '\n')
 for word in words:
     stemmed_words = [stemmer_porter.stem(word), 
             stemmer_lancaster.stem(word), stemmer_snowball.stem(word)]
-    print formatted_row.format(word, *stemmed_words)
+    print(formatted_row.format(word, *stemmed_words))
