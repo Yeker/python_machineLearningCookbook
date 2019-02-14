@@ -3,27 +3,35 @@ import datetime
 import numpy as np
 import matplotlib.pyplot as plt
 from hmmlearn.hmm import GaussianHMM
+from pandas_datareader import data,wb
 
-try:
-    from matplotlib.finance import quotes_historical_yahoo_ochl
-except ImportError:
-    from matplotlib.finance import quotes_historical_yahoo as quotes_historical_yahoo_ochl
+# try:
+#     from matplotlib.finance import quotes_historical_yahoo_ochl
+# except ImportError:
+#     from matplotlib.finance import quotes_historical_yahoo as quotes_historical_yahoo_ochl
 
 # Get quotes from Yahoo finance
-quotes = quotes_historical_yahoo_ochl("INTC", 
-        datetime.date(1994, 4, 5), datetime.date(2015, 7, 3))
+# quotes = quotes_historical_yahoo_ochl("INTC",
+#         datetime.date(1994, 4, 5), datetime.date(2015, 7, 3))
+quotes = data.get_data_yahoo("INTC", start=datetime.date(1994, 4, 5), end=datetime.date(2015, 7, 3))
+
 
 # Extract the required values
-dates = np.array([quote[0] for quote in quotes], dtype=np.int)
-closing_values = np.array([quote[2] for quote in quotes])
-volume_of_shares = np.array([quote[5] for quote in quotes])[1:]
-
+# dates = np.array([quote[0] for quote in quotes], dtype=np.int)
+dates = np.array(quotes.index.tolist())
+# closing_values = np.array([quote[2] for quote in quotes])
+# volume_of_shares = np.array([quote[5] for quote in quotes])[1:]
+closing_values = quotes['Close'].values
+volume_of_shares = quotes['Volume'].values
 # Take diff of closing values and computing rate of change
 diff_percentage = 100.0 * np.diff(closing_values) / closing_values[:-1]
 dates = dates[1:]
 
 # Stack the percentage diff and volume values column-wise for training
-X = np.column_stack([diff_percentage, volume_of_shares])
+# X = np.column_stack([diff_percentage, volume_of_shares])
+# X = np.column_stack([diff_percentage, volume_of_shares[:-1]])
+X = np.column_stack([diff_percentage, volume_of_shares[1:]])
+
 
 # Create and train Gaussian HMM 
 print("\nTraining HMM....")

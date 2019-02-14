@@ -3,19 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b18dbc1e-8e8e-46e3-b5f3-15eda8f5d462" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter05/euclidean_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter05/euclidean_score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter05/find_similar_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter05/find_similar_users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter05/movie_recommendations.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter05/movie_recommendations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter05/nn_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter05/nn_classification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter05/nn_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter05/nn_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter05/pearson_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter05/pearson_score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter05/utilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter05/utilities.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter06/lemmatizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter06/lemmatizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter06/stemmer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter06/stemmer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter06/tokenizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter06/tokenizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter08/convert_to_timeseries.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter08/convert_to_timeseries.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter08/extract_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter08/extract_stats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter08/hmm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter08/hmm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter08/hmm_stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter08/hmm_stock.py" afterDir="false" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
@@ -74,7 +61,7 @@
     <SUITE FILE_PATH="coverage/Python-Machine-Learning-Cookbook-master_my$main.coverage" NAME="main Coverage Results" MODIFIED="1546957351166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter01/Ch08" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$event.coverage" NAME="event Coverage Results" MODIFIED="1548887609164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$test.coverage" NAME="test Coverage Results" MODIFIED="1549677189115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter04" />
-    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$hmm_stock.coverage" NAME="hmm_stock Coverage Results" MODIFIED="1550073751031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter08" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$hmm_stock.coverage" NAME="hmm_stock Coverage Results" MODIFIED="1550156411011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter08" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$traffic.coverage" NAME="traffic Coverage Results" MODIFIED="1549113220717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Cookbook_master_my$kMeans.coverage" NAME="kMeans Coverage Results" MODIFIED="1549678604917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter04/Ch10" />
   </component>
@@ -99,7 +86,32 @@
     <favorites_list name="Python-Machine-Learning-Cookbook-master_my" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter08/hmm_stock.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter04/stock_market.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -186,6 +198,11 @@
             <path>
               <item name="Python-Machine-Learning-Cookbook-master_my" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-Machine-Learning-Cookbook-master_my" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python-Machine-Learning-Cookbook-master_my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python-Machine-Learning-Cookbook-master_my" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python-Machine-Learning-Cookbook-master_my" type="b2602c69:ProjectViewProjectNode" />
@@ -394,6 +411,7 @@
       <workItem from="1549589176279" duration="9642000" />
       <workItem from="1549672479770" duration="6419000" />
       <workItem from="1550066296520" duration="6091000" />
+      <workItem from="1550152715015" duration="3020000" />
     </task>
     <servers />
   </component>
@@ -403,7 +421,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54217000" />
+    <option name="totallyTimeSpent" value="57237000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -416,8 +434,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29034582" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29538906" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -437,7 +456,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.3299712" />
-      <window_info anchor="right" x="209" y="130" width="1053" height="605" id="SciView" order="4" type="WINDOWED" visible="true" weight="0.3299712" />
+      <window_info anchor="right" x="209" y="130" width="1053" height="605" id="SciView" order="4" weight="0.3299712" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,6 +537,11 @@
           <url>file://$PROJECT_DIR$/Chapter03/perform_grid_search.py</url>
           <line>38</line>
           <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Chapter08/hmm_stock.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="84" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -650,16 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="1740" column="10" lean-forward="true" selection-start-line="1740" selection-start-column="10" selection-end-line="1740" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter04/stock_market.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1539">
-          <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,16 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter08/hmm_stock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter08/hmm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -941,6 +945,26 @@
           <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter04/stock_market.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter08/hmm_stock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
